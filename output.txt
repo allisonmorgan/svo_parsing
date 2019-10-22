@@ -1,0 +1,305 @@
+
+subject: history
+{'subject': 'history', 'action': 'die', 'object': 'cancer', 'phrase': [('history', 'NN'), ('most', 'AP'), ('people', 'NNS'), ('didn', 'DOD*'), ('t', 'NN'), ('die', 'VB'), ('of', 'IN'), ('cancer', 'NN')]}
+
+subject: people
+{'subject': 'people', 'action': 'die', 'object': 'cancer', 'phrase': [('people', 'NNS'), ('didn', 'DOD*'), ('t', 'NN'), ('die', 'VB'), ('of', 'IN'), ('cancer', 'NN')]}
+{'subject': 'people', 'action': 'dying', 'object': 'infections', 'phrase': [('People', 'NNS'), ('are', 'BER'), ('dying', 'VBG'), ('of', 'IN'), ('infections', 'NNS')]}
+{'subject': 'people', 'action': 'die', 'object': 'infections', 'phrase': [('people', 'NNS'), ('a', 'DT'), ('year', 'NN'), ('die', 'VB'), ('of', 'IN'), ('infections', 'NNS')]}
+
+subject: didn
+{'subject': 'didn', 'action': 'die', 'object': 'cancer', 'phrase': [('didn', 'DOD*'), ('t', 'NN'), ('die', 'VB'), ('of', 'IN'), ('cancer', 'NN')]}
+
+subject: t
+{'subject': 't', 'action': 'die', 'object': 'cancer', 'phrase': [('t', 'NN'), ('die', 'VB'), ('of', 'IN'), ('cancer', 'NN')]}
+{'subject': 't', 'action': 'get', 'object': 'control', 'phrase': [('t', 'NN'), ('get', 'VB'), ('this', 'DT'), ('under', 'IN'), ('control', 'NN')]}
+
+subject: die
+
+subject: cancer
+
+subject: heart
+
+subject: disease
+
+subject: lifestyle
+
+subject: diseases
+
+subject: world
+{'subject': 'world', 'action': 'treated', 'object': 'pneumonia', 'phrase': [('World', 'NN-TL'), ('War', 'NN-TL'), ('II', 'NNP'), ('this', 'DT'), ('drug', 'NN'), ('treated', 'VBN'), ('pneumonia', 'NN')]}
+{'subject': 'world', 'action': 'work', 'object': 'side', 'phrase': [('world', 'NN'), ('for', 'IN'), ('which', 'WDT'), ('out', 'RP'), ('of', 'IN'), ('the', 'AT'), ('more', 'QL'), ('than', 'CS'), ('antibiotics', 'NNS'), ('available', 'JJ'), ('on', 'IN'), ('the', 'AT'), ('market', 'NN'), ('two', 'CD'), ('drugs', 'NNS'), ('might', 'MD'), ('work', 'VB'), ('with', 'IN'), ('side', 'NN')]}
+
+subject: today
+
+subject: injuries
+{'subject': 'injuries', 'action': 'gored', 'object': 'ox', 'phrase': [('injuries', 'NNS'), ('--', '--'), ('being', 'BEG'), ('gored', 'VBN'), ('by', 'IN'), ('an', 'AT'), ('ox', 'NN')]}
+
+subject: ox
+{'subject': 'ox', 'action': 'crushed', 'object': 'factories', 'phrase': [('ox', 'NN'), ('shot', 'NN'), ('on', 'IN'), ('a', 'AT'), ('battlefield', 'NN'), ('crushed', 'VBD'), ('in', 'IN'), ('one', 'CD'), ('of', 'IN'), ('the', 'AT'), ('new', 'JJ'), ('factories', 'NNS')]}
+
+subject: shot
+{'subject': 'shot', 'action': 'crushed', 'object': 'factories', 'phrase': [('shot', 'NN'), ('on', 'IN'), ('a', 'AT'), ('battlefield', 'NN'), ('crushed', 'VBD'), ('in', 'IN'), ('one', 'CD'), ('of', 'IN'), ('the', 'AT'), ('new', 'JJ'), ('factories', 'NNS')]}
+
+subject: battlefield
+{'subject': 'battlefield', 'action': 'crushed', 'object': 'factories', 'phrase': [('battlefield', 'NN'), ('crushed', 'VBD'), ('in', 'IN'), ('one', 'CD'), ('of', 'IN'), ('the', 'AT'), ('new', 'JJ'), ('factories', 'NNS')]}
+
+subject: factories
+{'subject': 'factories', 'action': 'followed', 'object': 'injuries', 'phrase': [('factories', 'NNS'), ('of', 'IN'), ('the', 'AT'), ('Industrial', 'JJ-TL'), ('Revolution', 'NN-TL'), ('--', '--'), ('and', 'CC'), ('most', 'QL'), ('of', 'IN'), ('the', 'AT'), ('time', 'NN'), ('from', 'IN'), ('infection', 'NN'), ('which', 'WDT'), ('followed', 'VBD'), ('those', 'DTS'), ('injuries', 'NNS')]}
+
+subject: revolution
+{'subject': 'revolution', 'action': 'followed', 'object': 'injuries', 'phrase': [('Revolution', 'NN-TL'), ('--', '--'), ('and', 'CC'), ('most', 'QL'), ('of', 'IN'), ('the', 'AT'), ('time', 'NN'), ('from', 'IN'), ('infection', 'NN'), ('which', 'WDT'), ('followed', 'VBD'), ('those', 'DTS'), ('injuries', 'NNS')]}
+
+subject: time
+{'subject': 'time', 'action': 'followed', 'object': 'injuries', 'phrase': [('time', 'NN'), ('from', 'IN'), ('infection', 'NN'), ('which', 'WDT'), ('followed', 'VBD'), ('those', 'DTS'), ('injuries', 'NNS')]}
+
+subject: infection
+{'subject': 'infection', 'action': 'followed', 'object': 'injuries', 'phrase': [('infection', 'NN'), ('which', 'WDT'), ('followed', 'VBD'), ('those', 'DTS'), ('injuries', 'NNS')]}
+
+subject: antibiotics
+{'subject': 'antibiotics', 'action': 'took', 'object': 'compounds', 'phrase': [('antibiotics', 'NNS'), ('we', 'PPSS'), ('took', 'VBD'), ('those', 'DTS'), ('compounds', 'NNS')]}
+{'subject': 'antibiotics', 'action': 'moving', 'object': 'world', 'phrase': [('antibiotics', 'NNS'), ('is', 'BEZ'), ('not', '*'), ('in', 'IN'), ('their', 'PP$'), ('best', 'JJT'), ('interest', 'NN'), ('so', 'CS'), ('there', 'EX'), ('are', 'BER'), ('infections', 'NNS'), ('moving', 'VBG'), ('across', 'IN'), ('the', 'AT'), ('world', 'NN')]}
+
+subject: alexander
+{'subject': 'alexander', 'action': 'discovered', 'object': 'penicillin', 'phrase': [('Alexander', 'NP'), ('Fleming', 'NP'), ('discovered', 'VBD'), ('penicillin', 'NN')]}
+
+subject: penicillin
+{'subject': 'penicillin', 'action': 'used', 'object': 'fight', 'phrase': [('penicillin', 'NN'), ('a', 'AT'), ('drug', 'NN'), ('still', 'RB'), ('used', 'VBN'), ('today', 'NR'), ('to', 'IN'), ('fight', 'NN')]}
+
+subject: drug
+{'subject': 'drug', 'action': 'used', 'object': 'fight', 'phrase': [('drug', 'NN'), ('still', 'RB'), ('used', 'VBN'), ('today', 'NR'), ('to', 'IN'), ('fight', 'NN')]}
+{'subject': 'drug', 'action': 'treated', 'object': 'pneumonia', 'phrase': [('drug', 'NN'), ('treated', 'VBN'), ('pneumonia', 'NN')]}
+
+subject: fight
+
+subject: bacterial
+
+subject: infections
+{'subject': 'infections', 'action': 'remedied', 'object': 'days', 'phrase': [('infections', 'NNS'), ('that', 'WPS'), ('had', 'HVD'), ('been', 'BEN'), ('a', 'AT'), ('death', 'NN'), ('sentence', 'NN'), ('became', 'VBD'), ('remedied', 'VBN'), ('within', 'IN'), ('days', 'NNS')]}
+{'subject': 'infections', 'action': 'called', 'object': 'antibiotic', 'phrase': [('infections', 'NNS'), ('again', 'RB'), ('because', 'CS'), ('of', 'IN'), ('a', 'AT'), ('phenomenon', 'NN'), ('called', 'VBN'), ('antibiotic', 'NN')]}
+{'subject': 'infections', 'action': 'moving', 'object': 'world', 'phrase': [('infections', 'NNS'), ('moving', 'VBG'), ('across', 'IN'), ('the', 'AT'), ('world', 'NN')]}
+{'subject': 'infections', 'action': 'die', 'object': 'infections', 'phrase': [('infections', 'NNS'), ('are', 'BER'), ('extraordinary', 'JJ'), ('cases', 'NNS'), ('but', 'CC'), ('in', 'IN'), ('fact', 'NN'), ('in', 'IN'), ('the', 'AT'), ('United', 'VBN-TL'), ('States', 'NNS-TL'), ('and', 'CC'), ('Europe', 'NNP'), ('thousand', 'CD'), ('people', 'NNS'), ('a', 'DT'), ('year', 'NN'), ('die', 'VB'), ('of', 'IN'), ('infections', 'NNS')]}
+
+subject: death
+{'subject': 'death', 'action': 'remedied', 'object': 'days', 'phrase': [('death', 'NN'), ('sentence', 'NN'), ('became', 'VBD'), ('remedied', 'VBN'), ('within', 'IN'), ('days', 'NNS')]}
+
+subject: sentence
+{'subject': 'sentence', 'action': 'remedied', 'object': 'days', 'phrase': [('sentence', 'NN'), ('became', 'VBD'), ('remedied', 'VBN'), ('within', 'IN'), ('days', 'NNS')]}
+
+subject: days
+
+subject: war
+{'subject': 'war', 'action': 'treated', 'object': 'pneumonia', 'phrase': [('War', 'NN-TL'), ('II', 'NNP'), ('this', 'DT'), ('drug', 'NN'), ('treated', 'VBN'), ('pneumonia', 'NN')]}
+
+subject: ii
+{'subject': 'ii', 'action': 'treated', 'object': 'pneumonia', 'phrase': [('II', 'NNP'), ('this', 'DT'), ('drug', 'NN'), ('treated', 'VBN'), ('pneumonia', 'NN')]}
+
+subject: pneumonia
+{'subject': 'pneumonia', 'action': 'saved', 'object': 'lives', 'phrase': [('pneumonia', 'NN'), ('and', 'CC'), ('sepsis', 'NN'), ('and', 'CC'), ('has', 'HVZ'), ('been', 'BEN'), ('estimated', 'VBN'), ('to', 'IN'), ('have', 'HV-NC'), ('saved', 'VBN'), ('between', 'IN'), ('-', ':'), ('of', 'IN'), ('Allied', 'VBN-TL'), ('Forces', 'NNS-TL'), ('lives', 'NNS')]}
+
+subject: sepsis
+{'subject': 'sepsis', 'action': 'saved', 'object': 'lives', 'phrase': [('sepsis', 'NN'), ('and', 'CC'), ('has', 'HVZ'), ('been', 'BEN'), ('estimated', 'VBN'), ('to', 'IN'), ('have', 'HV-NC'), ('saved', 'VBN'), ('between', 'IN'), ('-', ':'), ('of', 'IN'), ('Allied', 'VBN-TL'), ('Forces', 'NNS-TL'), ('lives', 'NNS')]}
+
+subject: forces
+
+subject: lives
+
+subject: living
+{'subject': 'living', 'action': 'coming', 'object': 'end', 'phrase': [('living', 'VBG'), ('inside', 'IN'), ('the', 'AT'), ('golden', 'JJ'), ('epoch', 'NN'), ('of', 'IN'), ('the', 'AT'), ('miracle', 'NN'), ('drugs', 'NNS'), ('and', 'CC'), ('now', 'RB'), ('we', 'PPSS'), ('are', 'BER'), ('coming', 'VBG'), ('to', 'TO'), ('an', 'DT'), ('end', 'NN')]}
+
+subject: epoch
+{'subject': 'epoch', 'action': 'coming', 'object': 'end', 'phrase': [('epoch', 'NN'), ('of', 'IN'), ('the', 'AT'), ('miracle', 'NN'), ('drugs', 'NNS'), ('and', 'CC'), ('now', 'RB'), ('we', 'PPSS'), ('are', 'BER'), ('coming', 'VBG'), ('to', 'TO'), ('an', 'DT'), ('end', 'NN')]}
+
+subject: miracle
+{'subject': 'miracle', 'action': 'coming', 'object': 'end', 'phrase': [('miracle', 'NN'), ('drugs', 'NNS'), ('and', 'CC'), ('now', 'RB'), ('we', 'PPSS'), ('are', 'BER'), ('coming', 'VBG'), ('to', 'TO'), ('an', 'DT'), ('end', 'NN')]}
+
+subject: drugs
+{'subject': 'drugs', 'action': 'coming', 'object': 'end', 'phrase': [('drugs', 'NNS'), ('and', 'CC'), ('now', 'RB'), ('we', 'PPSS'), ('are', 'BER'), ('coming', 'VBG'), ('to', 'TO'), ('an', 'DT'), ('end', 'NN')]}
+{'subject': 'drugs', 'action': 'work', 'object': 'side', 'phrase': [('drugs', 'NNS'), ('might', 'MD'), ('work', 'VB'), ('with', 'IN'), ('side', 'NN')]}
+
+subject: end
+
+subject: phenomenon
+{'subject': 'phenomenon', 'action': 'called', 'object': 'antibiotic', 'phrase': [('phenomenon', 'NN'), ('called', 'VBN'), ('antibiotic', 'NN')]}
+
+subject: resistance
+{'subject': 'resistance', 'action': 'referred', 'object': 'superbugs', 'phrase': [('resistance', 'NN'), ('or', 'CC'), ('popularly', 'RB'), ('referred', 'VBN'), ('to', 'TO'), ('as', 'IN'), ('superbugs', 'NN')]}
+{'subject': 'resistance', 'action': 'making', 'object': 'antibiotics', 'phrase': [('resistance', 'NN'), ('so', 'QL'), ('quickly', 'RB'), ('that', 'CS'), ('pharmaceutical', 'JJ'), ('companies', 'NNS'), ('have', 'HV'), ('decided', 'VBN'), ('making', 'VBG'), ('antibiotics', 'NNS')]}
+{'subject': 'resistance', 'action': 'seems', 'object': 've', 'phrase': [('resistance', 'NN'), ('seems', 'VBZ'), ('overwhelming', 'JJ'), ('but', 'CC'), ('if', 'CS'), ('you', 'PPSS'), ('ve', 'NN')]}
+
+subject: superbugs
+
+subject: bacteria
+{'subject': 'bacteria', 'action': 'compete', 'object': 'resources', 'phrase': [('Bacteria', 'NN'), ('compete', 'VB'), ('against', 'IN'), ('each', 'DT'), ('other', 'AP'), ('for', 'IN'), ('resources', 'NNS')]}
+{'subject': 'bacteria', 'action': 'responded', 'object': 'attack', 'phrase': [('bacteria', 'NNS'), ('responded', 'VBD'), ('to', 'TO'), ('our', 'PRP$'), ('attack', 'NN')]}
+{'subject': 'bacteria', 'action': 'develop', 'object': 'resistance', 'phrase': [('Bacteria', 'NN'), ('develop', 'VB'), ('resistance', 'NN')]}
+
+subject: compete
+
+subject: resources
+
+subject: food
+
+subject: manufacturing
+
+subject: lethal
+
+subject: compounds
+{'subject': 'compounds', 'action': 'made', 'object': 'versions', 'phrase': [('compounds', 'NNS'), ('into', 'IN'), ('the', 'AT'), ('lab', 'NN'), ('and', 'CC'), ('made', 'VBD'), ('our', 'PP$'), ('own', 'JJ'), ('versions', 'NNS')]}
+
+subject: lab
+{'subject': 'lab', 'action': 'made', 'object': 'versions', 'phrase': [('lab', 'NN'), ('and', 'CC'), ('made', 'VBD'), ('our', 'PP$'), ('own', 'JJ'), ('versions', 'NNS')]}
+
+subject: versions
+{'subject': 'versions', 'action': 'responded', 'object': 'attack', 'phrase': [('versions', 'NNS'), ('of', 'IN'), ('them', 'PPO'), ('and', 'CC'), ('bacteria', 'NNS'), ('responded', 'VBD'), ('to', 'TO'), ('our', 'PRP$'), ('attack', 'NN')]}
+
+subject: attack
+
+subject: way
+
+subject: years
+{'subject': 'years', 'action': 'played', 'object': 'game', 'phrase': [('years', 'NNS'), ('we', 'PPSS'), ('played', 'VBD'), ('a', 'AT'), ('game', 'NN')]}
+
+subject: played
+
+subject: game
+
+subject: leapfrog
+
+subject: companies
+{'subject': 'companies', 'action': 'making', 'object': 'antibiotics', 'phrase': [('companies', 'NNS'), ('have', 'HV'), ('decided', 'VBN'), ('making', 'VBG'), ('antibiotics', 'NNS')]}
+
+subject: interest
+{'subject': 'interest', 'action': 'moving', 'object': 'world', 'phrase': [('interest', 'NN'), ('so', 'CS'), ('there', 'EX'), ('are', 'BER'), ('infections', 'NNS'), ('moving', 'VBG'), ('across', 'IN'), ('the', 'AT'), ('world', 'NN')]}
+
+subject: market
+{'subject': 'market', 'action': 'work', 'object': 'side', 'phrase': [('market', 'NN'), ('two', 'CD'), ('drugs', 'NNS'), ('might', 'MD'), ('work', 'VB'), ('with', 'IN'), ('side', 'NN')]}
+
+subject: work
+
+subject: side
+
+subject: effects
+
+subject: none
+
+subject: hope
+{'subject': 'hope', 'action': 'die', 'object': 'infections', 'phrase': [('hope', 'VB'), ('that', 'CS'), ('these', 'DTS'), ('infections', 'NNS'), ('are', 'BER'), ('extraordinary', 'JJ'), ('cases', 'NNS'), ('but', 'CC'), ('in', 'IN'), ('fact', 'NN'), ('in', 'IN'), ('the', 'AT'), ('United', 'VBN-TL'), ('States', 'NNS-TL'), ('and', 'CC'), ('Europe', 'NNP'), ('thousand', 'CD'), ('people', 'NNS'), ('a', 'DT'), ('year', 'NN'), ('die', 'VB'), ('of', 'IN'), ('infections', 'NNS')]}
+
+subject: cases
+{'subject': 'cases', 'action': 'die', 'object': 'infections', 'phrase': [('cases', 'NNS'), ('but', 'CC'), ('in', 'IN'), ('fact', 'NN'), ('in', 'IN'), ('the', 'AT'), ('United', 'VBN-TL'), ('States', 'NNS-TL'), ('and', 'CC'), ('Europe', 'NNP'), ('thousand', 'CD'), ('people', 'NNS'), ('a', 'DT'), ('year', 'NN'), ('die', 'VB'), ('of', 'IN'), ('infections', 'NNS')]}
+
+subject: fact
+{'subject': 'fact', 'action': 'die', 'object': 'infections', 'phrase': [('fact', 'NN'), ('in', 'IN'), ('the', 'AT'), ('United', 'VBN-TL'), ('States', 'NNS-TL'), ('and', 'CC'), ('Europe', 'NNP'), ('thousand', 'CD'), ('people', 'NNS'), ('a', 'DT'), ('year', 'NN'), ('die', 'VB'), ('of', 'IN'), ('infections', 'NNS')]}
+
+subject: states
+{'subject': 'states', 'action': 'die', 'object': 'infections', 'phrase': [('States', 'NNS-TL'), ('and', 'CC'), ('Europe', 'NNP'), ('thousand', 'CD'), ('people', 'NNS'), ('a', 'DT'), ('year', 'NN'), ('die', 'VB'), ('of', 'IN'), ('infections', 'NNS')]}
+
+subject: europe
+{'subject': 'europe', 'action': 'die', 'object': 'infections', 'phrase': [('Europe', 'NNP'), ('thousand', 'CD'), ('people', 'NNS'), ('a', 'DT'), ('year', 'NN'), ('die', 'VB'), ('of', 'IN'), ('infections', 'NNS')]}
+
+subject: thousand
+{'subject': 'thousand', 'action': 'die', 'object': 'infections', 'phrase': [('thousand', 'CD'), ('people', 'NNS'), ('a', 'DT'), ('year', 'NN'), ('die', 'VB'), ('of', 'IN'), ('infections', 'NNS')]}
+
+subject: year
+{'subject': 'year', 'action': 'die', 'object': 'infections', 'phrase': [('year', 'NN'), ('die', 'VB'), ('of', 'IN'), ('infections', 'NNS')]}
+
+subject: help
+
+subject: project
+{'subject': 'project', 'action': 'chartered', 'object': 'government', 'phrase': [('project', 'NN'), ('chartered', 'VBN'), ('by', 'IN'), ('the', 'AT'), ('British', 'JJ'), ('government', 'NN')]}
+
+subject: government
+{'subject': 'government', 'action': 'known', 'object': 'Antimicrobial', 'phrase': [('government', 'NN'), ('known', 'VBN'), ('as', 'CS'), ('the', 'AT'), ('Review', 'NN-TL'), ('on', 'IN-TL'), ('Antimicrobial', 'NN')]}
+
+subject: review
+
+subject: estimates
+
+subject: worldwide
+
+subject: toll
+
+subject: right
+
+subject: deaths
+
+subject: control
+
+subject: population
+
+subject: york
+
+subject: city
+
+subject: scale
+{'subject': 'scale', 'action': 'seems', 'object': 've', 'phrase': [('scale', 'NN'), ('of', 'IN'), ('antibiotic', 'NN'), ('resistance', 'NN'), ('seems', 'VBZ'), ('overwhelming', 'JJ'), ('but', 'CC'), ('if', 'CS'), ('you', 'PPSS'), ('ve', 'NN')]}
+
+subject: ve
+{'subject': 've', 'action': 'bought', 'object': 'light', 'phrase': [('ve', 'NN'), ('ever', 'RB'), ('bought', 'VBD'), ('a', 'AT'), ('fluorescent', 'JJ'), ('light', 'NN')]}
+
+subject: bought
+{'subject': 'bought', 'action': 'concerned', 'object': 'climate', 'phrase': [('bought', 'VBD'), ('a', 'AT'), ('fluorescent', 'JJ'), ('light', 'NN'), ('bulb', 'NN'), ('because', 'IN'), ('you', 'PPO'), ('were', 'BED'), ('concerned', 'VBN'), ('about', 'IN'), ('climate', 'NN')]}
+
+subject: fluorescent
+{'subject': 'fluorescent', 'action': 'concerned', 'object': 'climate', 'phrase': [('fluorescent', 'JJ'), ('light', 'NN'), ('bulb', 'NN'), ('because', 'IN'), ('you', 'PPO'), ('were', 'BED'), ('concerned', 'VBN'), ('about', 'IN'), ('climate', 'NN')]}
+
+subject: light
+{'subject': 'light', 'action': 'concerned', 'object': 'climate', 'phrase': [('light', 'NN'), ('bulb', 'NN'), ('because', 'IN'), ('you', 'PPO'), ('were', 'BED'), ('concerned', 'VBN'), ('about', 'IN'), ('climate', 'NN')]}
+
+subject: bulb
+{'subject': 'bulb', 'action': 'concerned', 'object': 'climate', 'phrase': [('bulb', 'NN'), ('because', 'IN'), ('you', 'PPO'), ('were', 'BED'), ('concerned', 'VBN'), ('about', 'IN'), ('climate', 'NN')]}
+
+subject: climate
+{'subject': 'climate', 'action': 'take', 'object': 'step', 'phrase': [('climate', 'NN'), ('change', 'NN'), ('you', 'PRP'), ('already', 'RB'), ('know', 'VBP'), ('what', 'WP'), ('it', 'PRP'), ('feels', 'VBZ'), ('like', 'IN'), ('to', 'TO'), ('take', 'VB'), ('a', 'AT'), ('tiny', 'JJ'), ('step', 'NN')]}
+
+subject: change
+{'subject': 'change', 'action': 'take', 'object': 'step', 'phrase': [('change', 'NN'), ('you', 'PRP'), ('already', 'RB'), ('know', 'VBP'), ('what', 'WP'), ('it', 'PRP'), ('feels', 'VBZ'), ('like', 'IN'), ('to', 'TO'), ('take', 'VB'), ('a', 'AT'), ('tiny', 'JJ'), ('step', 'NN')]}
+
+subject: feels
+{'subject': 'feels', 'action': 'take', 'object': 'step', 'phrase': [('feels', 'VBZ'), ('like', 'IN'), ('to', 'TO'), ('take', 'VB'), ('a', 'AT'), ('tiny', 'JJ'), ('step', 'NN')]}
+
+subject: step
+{'subject': 'step', 'action': 'address', 'object': 'problem', 'phrase': [('step', 'NN'), ('to', 'TO'), ('address', 'VB'), ('an', 'AT'), ('overwhelming', 'JJ'), ('problem', 'NN')]}
+
+subject: address
+
+subject: problem
+
+subject: kinds
+
+subject: steps
+
+subject: use
+
+subject: forgo
+{'subject': 'forgo', 'action': 'giving', 'object': 'antibiotic', 'phrase': [('forgo', 'VB'), ('giving', 'VBG'), ('an', 'AT'), ('antibiotic', 'NN')]}
+
+subject: kids
+
+subject: ear
+
+subject: re
+
+subject: sure
+
+subject: s
+
+subject: promise
+{'subject': 'promise', 'action': 'buy', 'object': 'chicken', 'phrase': [('promise', 'VB'), ('each', 'DT'), ('other', 'AP'), ('to', 'TO'), ('never', 'RB'), ('again', 'RB'), ('to', 'TO'), ('buy', 'VB'), ('chicken', 'NN')]}
+
+subject: chicken
+{'subject': 'chicken', 'action': 'raised', 'object': 'routine', 'phrase': [('chicken', 'NN'), ('or', 'CC'), ('shrimp', 'NN'), ('or', 'CC'), ('fruit', 'NN'), ('raised', 'VBN'), ('with', 'IN'), ('routine', 'NN')]}
+
+subject: shrimp
+{'subject': 'shrimp', 'action': 'raised', 'object': 'routine', 'phrase': [('shrimp', 'NN'), ('or', 'CC'), ('fruit', 'NN'), ('raised', 'VBN'), ('with', 'IN'), ('routine', 'NN')]}
+
+subject: fruit
+{'subject': 'fruit', 'action': 'raised', 'object': 'routine', 'phrase': [('fruit', 'NN'), ('raised', 'VBN'), ('with', 'IN'), ('routine', 'NN')]}
+
+subject: routine
+
+subject: things
+{'subject': 'things', 'action': 'slow', 'object': 'arrival', 'phrase': [('things', 'NNS'), ('we', 'PPSS'), ('could', 'MD'), ('slow', 'VB'), ('down', 'RP'), ('the', 'AT'), ('arrival', 'NN')]}
+
+subject: arrival
